@@ -1,0 +1,69 @@
+
+
+html{
+    font-family: monospace;
+    
+}
+
+body {
+    background-color: #895129;
+}
+
+.bungkus a {
+    color: black;
+    font-size: 1.3rem;
+}
+
+.container-l{
+    background-image: url(imgbg/background.jpg) ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 20rem;
+    padding-bottom: 30rem;
+}
+
+.container-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -15%;
+}
+
+
+.logo {
+    width: 30%;
+    height: 30%;
+}
+
+.textV {
+    font-size: 3rem;
+    color :white;
+}
+
+.visi p {
+    font-size: 1.5rem;
+}
+
+@media screen and (max-width: 720px){
+    .logo {
+        width: 30%;
+        height: 30%;
+    }
+
+    .container-l{
+        background-image: url(imgVisi/background.jpg) ;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding-top: 10rem;
+        padding-bottom: 15rem;
+    }
+
+    .container-logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: -16%;
+    }
+}
